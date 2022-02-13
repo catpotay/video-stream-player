@@ -81,8 +81,9 @@
                     })
             })
             .catch(e => {
-                alert("Permission required to work")
                 console.error(e)
+                alert("Permission required to work")
+                location.reload()
             })
     }
 
